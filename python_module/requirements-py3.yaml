@@ -1,5 +1,5 @@
-actionlib==1.12.1
-angles==1.9.12
+#actionlib==1.12.1
+#angles==1.9.12
 bondpy==1.8.5
 brotlipy==0.7.0
 camera_calibration_parsers==1.11.13
