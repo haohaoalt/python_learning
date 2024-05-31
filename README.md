@@ -1,4 +1,27 @@
 # python_learning
+
+pyc文件的生成是什么情况下生成呢：
+当 import导入另一个模块的时候会生成
+python3会生成 __pycache__
+如何不生成编译文件呢：
+1.使用 -B参数 即
+python3 -B test.py
+里面的包含的就不会生成pyc了
+
+2.设置环境变量
+
+export PYTHONDONTWRITEBYTECODE=1
+1
+还有一种更方便的
+3. 在导入的地方写
+
+import sys
+sys.dont_write_bytecode = True
+1
+2
+以上三种方式都可以实现不生成pyc文件。
+
+
 ## python多线程
 多线程简单理解：一个CPU，也就是单核，将时间切成一片一片的，CPU轮着去处理一件一件事情，到了规定时间片就处理下一件事情。
 
