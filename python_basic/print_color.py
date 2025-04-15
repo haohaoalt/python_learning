@@ -3,7 +3,7 @@ from termcolor import colored
 import sys
 
 if len(sys.argv)!=2:
-    print(colored("Usage: python hello.py <N>", "yellow"))
+    print(colored("Usage: python print_color.py <N>", "yellow"))
     sys.exit()
 
 N = int(sys.argv[1])
