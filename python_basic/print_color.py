@@ -1,4 +1,5 @@
 # coding utf-8
+# Add some note for wls2 test
 from termcolor import colored  
 import sys
 
